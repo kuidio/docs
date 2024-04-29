@@ -1,0 +1,22 @@
+name: docs
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "docs-*"
+    tags:
+      - "v*"
+
+env:
+  MKDOCS_MATERIAL_VER: 9.1.4
+
+jobs:
+  publish:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: docker run -v $(pwd):/docs --entrypoint mkdocs squidfunk/mkdocs-material:$MKDOCS_MATERIAL_VER gh-deploy --force --strict
