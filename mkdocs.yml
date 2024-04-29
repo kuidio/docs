@@ -12,6 +12,12 @@ nav:
       - VLAN Range: 02-resources/vlan/03_vlan_range.md
       - VLAN: 02-resources/vlan/04_vlan.md
       - VLAN Entry: 02-resources/vlan/05_vlan_entry.md
+    - VXLAN: 
+      - About: 02-resources/vxlan/01_vxlan_about.md
+      - VXLANIndex: 02-resources/vxlan/02_vxlan_index.md
+      - VXLAN Range: 02-resources/vxlan/03_vxlan_range.md
+      - VXLAN: 02-resources/vxlan/04_vxlan.md
+      - VXLAN Entry: 02-resources/vxlan/05_vxlan_entry.md
   - Release Notes:
     - "0.0.1": 06-rn/0.0.1.md
   - Community: 

@@ -14,7 +14,7 @@ A static VLAN is configured by specifying the VLAN index and the static VLAN ID 
 apiVersion: vlan.be.kuid.dev/v1alpha1
 kind: VLANClaim
 metadata:
-  name: static-claim
+  name: index1.claim1
 spec:
   index: index1
   id: 100
@@ -36,7 +36,7 @@ A dynamic VLAN is configured by specifying only the VLAN index in the `VLANClaim
 apiVersion: vlan.be.kuid.dev/v1alpha1
 kind: VLANClaim
 metadata:
-  name: dynamic-claim
+  name: index1.claim2
 spec:
   index: index1
 ```
@@ -49,12 +49,12 @@ A dynamic VLAN can be restricted to a specific VLAN range using label selectors 
 apiVersion: vlan.be.kuid.dev/v1alpha1
 kind: VLANClaim
 metadata:
-  name: dynamic-claim
+  name: index1.claim3
 spec:
   index: index1
   selector:
     matchLabels:
-      be.kuid.dev/claim-name: range1
+      be.kuid.dev/claim-name: index1.range1
 ```
 ### Expected behavior
 
@@ -65,19 +65,15 @@ Upon successful creation of the dynamic `VLANClaim`, the status should indicate 
 The status of VLANClaims is indicated using the READY condition. A True Ready condition indicates a successful VLANClaim. When the Ready condition status is False, the reason and message information in the status provide additional details.
 
 ```
-kubectl get vlanclaims.vlan.be.kuid.dev --all
+kubectl get vlanclaims.vlan.be.kuid.dev
 ```
 
-status static claim
+status of the vlan claims
 
 ```
-NAME           READY   INDEX    CLAIMTYPE      CLAIMREQ   CLAIMRSP
-static-claim   True    index1   staticVLANID   100        100
-```
-
-statuc dynamic claim
-
-```
-NAME            READY   INDEX    CLAIMTYPE      CLAIMREQ   CLAIMRSP
-dynamic-claim   True    index1   dynamicVLANID              2
+NAME            READY   INDEX    CLAIMTYPE       CLAIMREQ   CLAIMRSP
+index1.claim1   True    index1   staticVLANID    100        100
+index1.claim2   True    index1   dynamicVLANID              1
+index1.claim3   True    index1   dynamicVLANID              200
+index1.range1   True    index1   vlanRange       200-399    200-399
 ```

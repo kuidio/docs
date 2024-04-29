@@ -22,12 +22,12 @@ spec:
 The status of the `VLANClaim` is indicated using the READY condition. A True Ready condition indicates a successful VLAN range claim in the system. The claimed VLAN range is also displayed in the status.
 
 ```
-kubectl get vlanclaims.vlan.be.kuid.dev static-claim
+kubectl get vlanclaims.vlan.be.kuid.dev
 ```
 
 ```
-NAME            READY   INDEX    CLAIMTYPE      CLAIMREQ   CLAIMRSP
-range-claim     True    index1   vlanRange       200-399    200-399
+NAME            READY   INDEX    CLAIMTYPE   CLAIMREQ   CLAIMRSP
+index1.range1   True    index1   vlanRange   200-399    200-399
 ```
 
 If a `VLANClaim` is unsuccessful, the condition will indicate the reason for the failure. For example, a `VLANClaim` cannot overlap with existing entries.

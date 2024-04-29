@@ -15,14 +15,16 @@ k get vlanentries.vlan.be.kuid.dev
 output
 
 ```
-NAME                        READY   INDEX    CLAIMTYPE       VLANID
-index1.100-32               True    index1   staticVLANID    100/32
-index1.200-29               True    index1   vlanRange       200/29
-index1.208-28               True    index1   vlanRange       208/28
-index1.224-27               True    index1   vlanRange       224/27
-index1.256-25               True    index1   vlanRange       256/25
-index1.384-28               True    index1   vlanRange       384/28
-index1.range-claim.200-32   True    index1   staticVLANID    200/32
-index1.range-claim.201-32   True    index1   dynamicVLANID   201/32
-index1.range-claim.202-32   True    index1   dynamicVLANID   202/32
+NAME                   READY   INDEX    CLAIMTYPE       VLANID
+index1.0-32            True    index1   vlanRange       0/32
+index1.1-32            True    index1   dynamicVLANID   1/32
+index1.100-32          True    index1   staticVLANID    100/32
+index1.200-29          True    index1   vlanRange       200/29
+index1.208-28          True    index1   vlanRange       208/28
+index1.224-27          True    index1   vlanRange       224/27
+index1.256-25          True    index1   vlanRange       256/25
+index1.384-28          True    index1   vlanRange       384/28
+index1.4091-32         True    index1   vlanRange       4091/32
+index1.4092-30         True    index1   vlanRange       4092/30
+index1.range1.200-32   True    index1   dynamicVLANID   200/32
 ```
