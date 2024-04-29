@@ -26,7 +26,6 @@ jobs:
       - name: Build Docker image
         run: |
           docker build -t my-mkdocs-image \
-            --build-arg MKDOCS_MATERIAL_VER=9.1.4 \
             -f Dockerfile .
         env:
           DOCKER_BUILDKIT: 1
