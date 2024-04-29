@@ -19,13 +19,17 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v4
-        with:
-          python-version: ${{ matrix.python-version }}
       
       - name: Set up Docker
         uses: docker/setup-buildx-action@v1
+
+      - name: Build Docker image
+        run: |
+          docker build -t my-mkdocs-image \
+            --build-arg MKDOCS_MATERIAL_VER=9.1.4 \
+            -f Dockerfile .
+        env:
+          DOCKER_BUILDKIT: 1
 
       - name: Deploy MkDocs Site
         run: |
