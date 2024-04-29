@@ -81,6 +81,31 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.kuidio.dev/02-resources/vxlan/01_vxlan_about/</loc>
+         <lastmod>2024-04-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.kuidio.dev/02-resources/vxlan/02_vxlan_index/</loc>
+         <lastmod>2024-04-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.kuidio.dev/02-resources/vxlan/03_vxlan_range/</loc>
+         <lastmod>2024-04-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.kuidio.dev/02-resources/vxlan/04_vxlan/</loc>
+         <lastmod>2024-04-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.kuidio.dev/02-resources/vxlan/05_vxlan_entry/</loc>
+         <lastmod>2024-04-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.kuidio.dev/06-rn/0.0.1/</loc>
          <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
