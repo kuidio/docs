@@ -15,7 +15,7 @@ k get vxlanentries.vxlan.be.kuid.dev
 output
 
 ```
-NAME                    READY   INDEX    CLAIMTYPE        VXLANID
+NAME                    READY   INDEX    CLAIMTYPE        ID
 index1.0-32             True    index1   dynamicVXLANID   0/32
 index1.100000-32        True    index1   staticVXLANID    100000/32
 index1.1024-22          True    index1   vxlanRange       1024/22

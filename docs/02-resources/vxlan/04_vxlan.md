@@ -1,6 +1,6 @@
 # VXLAN
 
-In Kuid, VXLANs are managed according to IEEE 802.1Q standards, ensuring adherence to industry best practices for network segmentation and organization. VXLANs are logically organized within VXLAN Indexes, providing a structured framework for VXLAN management.
+In Kuid, VXLANs are managed according [RFC7348](https://datatracker.ietf.org/doc/html/rfc7348), ensuring adherence to industry best practices for network segmentation and organization. VXLANs are logically organized within VXLAN Indexes, providing a structured framework for VXLAN management.
 
 ## Static VXLAN
 
@@ -22,7 +22,7 @@ spec:
 
 ### Expected behavior
 
-Upon successful creation of the static `VXLANClaim` "index1.static-claim1", the status should indicate a True Ready condition, confirming that the VXLAN has been successfully claimed with the specified VXLAN ID.
+Upon successful creation of the static `VXLANClaim` "index1.claim1", the status should indicate a True Ready condition, confirming that the VXLAN has been successfully claimed with the specified VXLAN ID.
 
 ## Dynamic VXLAN
 

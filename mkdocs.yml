@@ -6,6 +6,12 @@ nav:
     - About: 02-resources/01_about.md
     - IPAM:
       - About: 02-resources/ipam/01_ipam_about.md
+    - ASN: 
+      - About: 02-resources/asn/01_asn_about.md
+      - ASIndex: 02-resources/asn/02_asn_index.md
+      - AS Range: 02-resources/asn/03_asn_range.md
+      - AS: 02-resources/asn/04_asn.md
+      - AS Entry: 02-resources/asn/05_asn_entry.md
     - VLAN: 
       - About: 02-resources/vlan/01_vlan_about.md
       - VLANIndex: 02-resources/vlan/02_vlan_index.md

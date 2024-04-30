@@ -22,7 +22,7 @@ spec:
 
 ### Expected behavior
 
-Upon successful creation of the static `VLANClaim` "static-claim," the status should indicate a True Ready condition, confirming that the VLAN has been successfully claimed with the specified VLAN ID.
+Upon successful creation of the static `VLANClaim` "index1.claim1", the status should indicate a True Ready condition, confirming that the VLAN has been successfully claimed with the specified VLAN ID.
 
 ## Dynamic VLAN
 
