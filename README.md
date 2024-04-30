@@ -1,3 +1,5 @@
+# Kuid (Kubernetes Identities)
+
 `Kuid` is a native Kubernetes tool designed for managing infrastructure resources. Leveraging Kubernetes-native architecture and customizable fields, `Kuid` serves as a cornerstone for automation by facilitating streamlined resource organization and tracking. Notable features include robust IP Address Management (IPAM) capabilities, enabling efficient allocation and oversight of IP resources. Additionally, Kuid offers sophisticated infrastructure management functionalities, empowering users to organize and manage various infrastructure components within a structured hierarchy. With seamless integration into automation workflows, Kuid emerges as a key building block for driving efficiency and scalability in automating your infrastructure
 
 
