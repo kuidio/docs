@@ -2,122 +2,147 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.kuidio.dev/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/01-getting-started/01_install/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/01_about/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.kuidio.dev/02-resources/asn/01_asn_about/</loc>
+         <lastmod>2024-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.kuidio.dev/02-resources/asn/02_asn_index/</loc>
+         <lastmod>2024-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.kuidio.dev/02-resources/asn/03_asn_range/</loc>
+         <lastmod>2024-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.kuidio.dev/02-resources/asn/04_asn/</loc>
+         <lastmod>2024-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.kuidio.dev/02-resources/asn/05_asn_entry/</loc>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/ipam/01_ipam_about/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/ipam/02_ipam_networkinstance/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/ipam/03_ipam_ipprefix_static/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/ipam/04_ipam_ipprefix_dynamic/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/ipam/05_ipam_ipaddress/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/ipam/06_ipam_ipaddress_dynamic/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/ipam/07_ipam_ipaddress_static/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/ipam/08_ipam_ipentry/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/vlan/01_vlan_about/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/vlan/02_vlan_index/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/vlan/03_vlan_range/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/vlan/04_vlan/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/vlan/05_vlan_entry/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/vxlan/01_vxlan_about/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/vxlan/02_vxlan_index/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/vxlan/03_vxlan_range/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/vxlan/04_vxlan/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/vxlan/05_vxlan_entry/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/06-rn/0.0.1/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/07-community/01_about/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/07-community/02_faq/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
