@@ -1,4 +1,4 @@
-# AdminDoamin
+# AdminDomain
 
 In Kuid, an `AdminDomain` represents a logical grouping of infrastructure resources managed by a single administrative entity or organization. `AdminDomains` serve as administrative boundaries within the environment, providing a structured framework for organizing and managing resources based on administrative ownership or responsibility.
 
