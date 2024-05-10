@@ -25,7 +25,7 @@ title: ASN Management Hierarchy
 theme: neutral
 ---
 flowchart TD
-    i[AS Index] --> r[AS Range]
-    i[AS Index] --> vi[AS]
-    r[AS Range] --> vr[AS]
+    i[AS Index] --> |1:N| r[AS Range]
+    i[AS Index] --> |1:N| vi[AS]
+    r[AS Range] --> |1:N| vr[AS]
 ```

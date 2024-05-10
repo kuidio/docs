@@ -1,0 +1,9 @@
+# Introduction
+
+`Kuid` offers a comprehensive suite of features for managing resource identifiers. These identifiers play a critical role in facilitating precise identification and allocation of network resources within the infrastructure landscape. From IP Address Management (IPAM) to VLANs, Autonomous Systems, etc `Kuid` provides robust capabilities for managing these key identifiers, ensuring efficient and reliable operation of the environment.
+
+With `Kuid`, users can define and allocate identifiers dynamically, empowering them to adapt and scale their network infrastructure as needed. Whether provisioning new IP addresses, managing VLAN configurations, or assigning Autonomous System Numbers (ASNs), etc `Kuid` offers flexible and intuitive tools for managing these essential identifiers.
+
+Moreover, `Kuid's` integration with applications built on top of its API enables users to automate the provisioning and management of resource identifiers, streamlining operational workflows and enhancing network agility. Additionally, `Kuid` introduces dynamic claiming mechanisms based on selectors, allowing users to efficiently allocate identifiers based on specific criteria, further optimizing resource utilization.
+
+By offering robust capabilities for managing resource identifiers, `Kuid` provides a solid foundation for network operations, ensuring seamless connectivity and efficient resource allocation across the infrastructure landscape. Whether managing on-premises networks or cloud-based deployments, Kuid's resource identifier management capabilities empower users to maintain a reliable and scalable network infrastructure.

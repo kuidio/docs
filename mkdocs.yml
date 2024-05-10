@@ -2,28 +2,45 @@ site_name: kuid
 nav:
   - Home: index.md
   - Getting Started: 01-getting-started/01_install.md
-  - Kuid Resources:
+  - Resources:
     - About: 02-resources/01_about.md
-    - IPAM:
-      - About: 02-resources/ipam/01_ipam_about.md
-    - ASN: 
-      - About: 02-resources/asn/01_asn_about.md
-      - ASIndex: 02-resources/asn/02_asn_index.md
-      - AS Range: 02-resources/asn/03_asn_range.md
-      - AS: 02-resources/asn/04_asn.md
-      - AS Entry: 02-resources/asn/05_asn_entry.md
-    - VLAN: 
-      - About: 02-resources/vlan/01_vlan_about.md
-      - VLANIndex: 02-resources/vlan/02_vlan_index.md
-      - VLAN Range: 02-resources/vlan/03_vlan_range.md
-      - VLAN: 02-resources/vlan/04_vlan.md
-      - VLAN Entry: 02-resources/vlan/05_vlan_entry.md
-    - VXLAN: 
-      - About: 02-resources/vxlan/01_vxlan_about.md
-      - VXLANIndex: 02-resources/vxlan/02_vxlan_index.md
-      - VXLAN Range: 02-resources/vxlan/03_vxlan_range.md
-      - VXLAN: 02-resources/vxlan/04_vxlan.md
-      - VXLAN Entry: 02-resources/vxlan/05_vxlan_entry.md
+    - Inventory:
+      - About: 02-resources/02-inventory/01_about.md
+      - Region: 02-resources/02-inventory/02_region.md
+      - Site: 02-resources/02-inventory/03_site.md
+      - Rack: 02-resources/02-inventory/04_rack.md
+      - Domain: 02-resources/02-inventory/05_domain.md
+      - Node: 02-resources/02-inventory/06_node.md
+      - ModuleBay: 02-resources/02-inventory/07_modulebay.md
+      - Module: 02-resources/02-inventory/08_module.md
+      - Nodeitem: 02-resources/02-inventory/09_nodeitem.md
+      - Endpoint: 02-resources/02-inventory/10_endpoint.md
+      - Link: 02-resources/02-inventory/11_link.md
+      - Cluster: 02-resources/02-inventory/12_cluster.md
+      - NodeSet: 02-resources/02-inventory/13_nodeset.md
+      - LinkSet: 02-resources/02-inventory/14_linkset.md
+    - Identifiers:
+      - About: 02-resources/03-identifiers/01_about.md
+      - IPAM:
+        - About: 02-resources/03-identifiers/ipam/01_ipam_about.md
+      - ASN: 
+        - About: 02-resources/03-identifiers/asn/01_asn_about.md
+        - ASIndex: 02-resources/03-identifiers/asn/02_asn_index.md
+        - AS Range: 02-resources/03-identifiers/asn/03_asn_range.md
+        - AS: 02-resources/03-identifiers/asn/04_asn.md
+        - AS Entry: 02-resources/03-identifiers/asn/05_asn_entry.md
+      - VLAN: 
+        - About: 02-resources/03-identifiers/vlan/01_vlan_about.md
+        - VLANIndex: 02-resources/03-identifiers/vlan/02_vlan_index.md
+        - VLAN Range: 02-resources/03-identifiers/vlan/03_vlan_range.md
+        - VLAN: 02-resources/03-identifiers/vlan/04_vlan.md
+        - VLAN Entry: 02-resources/03-identifiers/vlan/05_vlan_entry.md
+      - VXLAN: 
+        - About: 02-resources/03-identifiers/vxlan/01_vxlan_about.md
+        - VXLANIndex: 02-resources/03-identifiers/vxlan/02_vxlan_index.md
+        - VXLAN Range: 02-resources/03-identifiers/vxlan/03_vxlan_range.md
+        - VXLAN: 02-resources/03-identifiers/vxlan/04_vxlan.md
+        - VXLAN Entry: 02-resources/03-identifiers/vxlan/05_vxlan_entry.md
   - Release Notes:
     - "0.0.1": 06-rn/0.0.1.md
   - Community: 

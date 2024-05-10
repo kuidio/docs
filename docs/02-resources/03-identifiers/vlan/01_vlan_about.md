@@ -25,7 +25,7 @@ title: VLAN Management Hierarchy
 theme: neutral
 ---
 flowchart TD
-    i[VLAN Index] --> r[VLAN Range]
-    i[VLAN Index] --> vi[VLAN]
-    r[VLAN Range] --> vr[VLAN]
+    i[VLAN Index] --> |1:N| r[VLAN Range]
+    i[VLAN Index] --> |1:N| vi[VLAN]
+    r[VLAN Range] --> |1:N| vr[VLAN]
 ```

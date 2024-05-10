@@ -25,7 +25,7 @@ title: VXLAN Management Hierarchy
 theme: neutral
 ---
 flowchart TD
-    i[VXLAN Index] --> r[VXLAN Range]
-    i[VXLAN Index] --> vi[VXLAN]
-    r[VXLAN Range] --> vr[VXLAN]
+    i[VXLAN Index] --> |1:N| r[VXLAN Range]
+    i[VXLAN Index] --> |1:N| vi[VXLAN]
+    r[VXLAN Range] --> |1:N| vr[VXLAN]
 ```
