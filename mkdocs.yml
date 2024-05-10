@@ -9,7 +9,7 @@ nav:
       - Region: 02-resources/02-inventory/02_region.md
       - Site: 02-resources/02-inventory/03_site.md
       - Rack: 02-resources/02-inventory/04_rack.md
-      - Domain: 02-resources/02-inventory/05_domain.md
+      - Domain: 02-resources/02-inventory/05_admindomain.md
       - Node: 02-resources/02-inventory/06_node.md
       - ModuleBay: 02-resources/02-inventory/07_modulebay.md
       - Module: 02-resources/02-inventory/08_module.md
