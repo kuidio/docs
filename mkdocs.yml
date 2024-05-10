@@ -8,12 +8,12 @@ nav:
       - About: 02-resources/02-inventory/01_about.md
       - Region: 02-resources/02-inventory/02_region.md
       - Site: 02-resources/02-inventory/03_site.md
-      - Rack: 02-resources/02-inventory/05_admindomain.md
+      - Rack: 02-resources/02-inventory/04_rack.md
       - Domain: 02-resources/02-inventory/05_admindomain.md
       - Node: 02-resources/02-inventory/06_node.md
       - ModuleBay: 02-resources/02-inventory/07_modulebay.md
       - Module: 02-resources/02-inventory/08_module.md
-      - Nodeitem: 02-resources/02-inventory/09_nodeitem.md
+      - Nodeitem: 02-resources/02-inventory/08_nodeitem.md
       - Endpoint: 02-resources/02-inventory/10_endpoint.md
       - Link: 02-resources/02-inventory/11_link.md
       - Cluster: 02-resources/02-inventory/12_cluster.md
