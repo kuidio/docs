@@ -1,0 +1,5 @@
+# NodeGroup
+
+A `NodeGrouo` in `kuid` represents a logical grouping of infrastructure resources managed by a single administrative entity or organization. `NodeGroups` serve as administrative boundaries within the environment, providing a structured framework for organizing and managing resources based on administrative ownership or responsibility. E.g. A `NodeGroup` on one hand, can be used to represent a topology that spans multiple sites and regions, but a `NodeGroup` can also be used to group all nodes of a cluster together. 
+
+Each `NodeGroup` encapsulates a set of components, such as nodes, nodesets, and other relevant resources, that are administered and maintained by a designated administrative team or department. This hierarchical organization allows for centralized management and control of resources, facilitating efficient allocation, monitoring, and maintenance of assets.

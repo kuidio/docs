@@ -6,11 +6,11 @@ Within the realm of infrastructure management, `Kuid` excels as a powerful tool 
 
 The geographical model in `Kuid` follows a hierarchical structure to organize infrastructure resources efficiently. At the highest level, we have the concept of a `Region`. A `Region` represents a broad geographical area where infrastructure resources are deployed. Within each `Region`, there can be multiple `Sites`. Each `Site` corresponds to a specific physical or logical location within the `Region`, such as a data center, colo or a cloud region.
 
-Within each `Site`, resources are further organized into `Racks`. A `Rack` represents a physical or virtual rack used to house hardware components, such as servers, switches, and storage devices. Multiple `Racks` can exist within a single `Site`, depending on the size and capacity of the location.
+Within each `Site`, resources are further organized into `Racks`. A `Rack` represents a physical rack used to house hardware components, such as servers, switches, and storage devices. Multiple `Racks` can exist within a single `Site`, depending on the size and capacity of the location. A rack is an optional identifier
 
 At the lowest level of the hierarchy, we have individual `Nodes`. `Nodes` are the fundamental units of compute, storage, or networking resources within the infrastructure. These `Nodes` are typically deployed within `Racks` and are responsible for executing applications, storing data, and facilitating network communication.
 
-Additionally, each `Node` may belong to a specific `AdminDomain`. An `AdminDomain` represents a logical grouping of `Nodes` that are managed by a single administrative entity or organization. This allows for centralized management and control of infrastructure resources within a defined administrative boundary.
+Additionally, each `Node` may belong to a specific `NodeGroup`. A `NodeGroup` represents a logical grouping of `Nodes` that are managed by a single administrative entity or organization. This allows for centralized management and control of infrastructure resources within a defined administrative boundary. A `NodeGroup` in `kuid` is an abstract grouping. E.g. A `NodeGroup` on one hand, can be used to represent a topology that spans multiple sites and regions, but a `NodeGroup` can also be used to group all nodes of a cluster together.
 
 The relationships between these entities are hierarchical, with each level containing multiple instances of the level below it. For example, a `Region` may contain multiple `Sites`, each `Site` may contain multiple `Racks`, and each `Rack` may contain multiple `Nodes`. This hierarchical organization enables efficient management and scaling of infrastructure resources within `Kuid`, ensuring optimal performance and resource utilization across different geographical locations.
 
@@ -22,12 +22,12 @@ graph TD;
         Region
         Site;
         Rack;
-        AdminDomain;
+        NodeGroup;
         Node;
         Region --> |1:N| Site;
         Site --> |1:N| Rack;
         Rack --> |1:N| Node;
-        AdminDomain --> |1:1| Node;
+        NodeGroup --> |1:1| Node;
     end
 ```
 
@@ -78,3 +78,6 @@ graph TD;
     end
 ```
 
+!!!note "We've opted for the name `endpoint` instead of `interface` as it better encompasses the scope we aim to cover. While 'interface' is often used in networking we opted for a more neutral term that can be used in different environments"
+
+!!!note "A `node` equipped with a set of `endpoints` resources might suffice as resources to model a fixed format entity. Conversely, modular systems often require the use of additional resources such as `NodeItems` and `ModuleBays`/`Module(s)` to accommodate their flexible configurations."
