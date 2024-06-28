@@ -3,7 +3,7 @@
 ![KUID logo](../assets/logos/KUID-logo-100x123.png)
 
 Join us in this jurney to build a Kubernetes native network resource management framework. We are happy to help and
-would like to learn your user stories in our [discord server](https://discord.gg/fH35bmcTU9).
+would like to learn your user stories in our [discord server](https://discord.gg/hXt4sfUs6V).
 
 KUID was started and currently maintained by Nokia with the clear target to make the project community driven.
 
@@ -25,11 +25,6 @@ Logos of KUID in different formats:
 * [With name svg](../assets/logos/KUID-logo.svg)
 * [Without name svg](../assets/logos/KUID-logo-square.svg)
 
-
-
-
-
-[![Discord](https://img.shields.io/discord/860500297297821756?style=flat-square&label=discord&logo=discord&color=00c9ff&labelColor=bec8d2)](https://discord.gg/fH35bmcTU9)
-
+[![Discord](https://img.shields.io/discord/1234818321833136199?style=flat-square&label=discord&logo=discord&color=00c9ff&labelColor=bec8d2)](https://discord.gg/hXt4sfUs6V)
 
 ---

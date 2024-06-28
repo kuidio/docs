@@ -5,7 +5,9 @@ hide:
 
 ![KUID logo](assets/logos/KUID-logo-100x123.png)
 
-[![Discord](https://img.shields.io/discord/860500297297821756?style=flat-square&label=discord&logo=discord&color=00c9ff&labelColor=bec8d2)](https://discord.gg/fH35bmcTU9)
+# Kuid (Kubernetes Identities)
+
+[![Discord](https://img.shields.io/discord/1234818321833136199?style=flat-square&label=discord&logo=discord&color=00c9ff&labelColor=bec8d2)](https://discord.gg/hXt4sfUs6V)
 
 
 ---
