@@ -1,7 +1,7 @@
 site_name: kuid
 nav:
   - Home: index.md
-  - Getting Started: 01-getting-started/01_install.md
+#  - Getting Started: 01-getting-started/01_install.md
   - Resources:
     - About: 02-resources/01_about.md
     - Inventory:
@@ -42,10 +42,10 @@ nav:
         - VXLAN: 02-resources/03-identifiers/vxlan/04_vxlan.md
         - VXLAN Entry: 02-resources/03-identifiers/vxlan/05_vxlan_entry.md
   - Release Notes:
-    - "0.0.1": 06-rn/0.0.1.md
+    - "": 06-rn/rn.md
   - Community: 
     - Community: 07-community/01_about.md
-    - FAQ: 07-community/02_faq.md
+#    - FAQ: 07-community/02_faq.md
 
 site_author: Wim Henderickx
 site_description: >-
@@ -110,11 +110,12 @@ theme:
     text: Manrope
     code: Fira Mono
   icon:
-    logo: fontawesome/solid/sitemap
+#    logo: KUID-logo-square
     repo: fontawesome/brands/github
     edit: material/file-edit-outline
-  favicon: images/flask.svg
 
+  favicon: assets/logos/KUID-logo-square.svg
+  logo: assets/logos/KUID-logo-square.svg
 # Plugins
 plugins:
   - search
@@ -126,7 +127,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/sdcio
+      link: https://github.com/kuidio/
     # - icon: fontawesome/brands/discord
     #   link: https://discord.gg/fHCNahWR2T
     
