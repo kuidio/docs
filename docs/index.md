@@ -3,6 +3,12 @@ hide:
   - navigation
 ---
 
+![KUID logo](assets/logos/KUID-logo-100x123.png)
+
+# Kuid (Kubernetes Identities)
+
+[![Discord](https://img.shields.io/discord/1234818321833136199?style=flat-square&label=discord&logo=discord&color=00c9ff&labelColor=bec8d2)](https://discord.gg/hXt4sfUs6V)
+
 
 ---
 
@@ -71,6 +77,6 @@ Kuid offers a robust set of resource identifiers to facilitate precise identific
 
 ## Join us
 
-Have questions, ideas, bug reports or just want to chat? Come join [our discord server](todo).
+Have questions, ideas, bug reports or just want to chat? Come join [our discord server](https://discord.gg/fH35bmcTU9).
 
 <script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js" async></script>
