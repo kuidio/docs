@@ -5,6 +5,8 @@
 Join us in this jurney to build a Kubernetes native network resource management framework. We are happy to help and
 would like to learn your user stories in our [discord server](https://discord.gg/hXt4sfUs6V).
 
+[![Discord](https://img.shields.io/discord/1234818321833136199?style=flat-square&label=discord&logo=discord&color=00c9ff&labelColor=bec8d2)](https://discord.gg/hXt4sfUs6V)
+
 KUID was started and currently maintained by Nokia with the clear target to make the project community driven.
 
 ## Kubenet
@@ -14,6 +16,10 @@ KUID was started and currently maintained by Nokia with the clear target to make
 If you are intrested in a biger picture about how do we imagine network manegement in a Kubernetes native way check out
 [Kubenet](https://learn.kubenet.dev/). 
 
+For more generic discussions about the usage of Kubernetes principles for network device managament join to the Kubenet
+[discord server](https://discord.gg/fH35bmcTU9).
+
+[![Discord](https://img.shields.io/discord/860500297297821756?style=flat-square&label=discord&logo=discord&color=00c9ff&labelColor=bec8d2)](https://discord.gg/fH35bmcTU9)
 
 ## Logos
 
@@ -24,7 +30,5 @@ Logos of KUID in different formats:
 * [Without name 100x100 png](../assets/logos/KUID-transparent-square-noname-100x100.png)
 * [With name svg](../assets/logos/KUID-logo.svg)
 * [Without name svg](../assets/logos/KUID-logo-square.svg)
-
-[![Discord](https://img.shields.io/discord/1234818321833136199?style=flat-square&label=discord&logo=discord&color=00c9ff&labelColor=bec8d2)](https://discord.gg/hXt4sfUs6V)
 
 ---
