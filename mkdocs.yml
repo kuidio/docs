@@ -15,10 +15,13 @@ nav:
       - Module: 02-resources/02-inventory/08_module.md
       - Nodeitem: 02-resources/02-inventory/09_nodeitem.md
       - Endpoint: 02-resources/02-inventory/10_endpoint.md
-      - Link: 02-resources/02-inventory/11_link.md
-      - Cluster: 02-resources/02-inventory/12_cluster.md
-      - NodeSet: 02-resources/02-inventory/13_nodeset.md
-      - LinkSet: 02-resources/02-inventory/14_linkset.md
+      - Adaptor: 02-resources/02-inventory/11_adaptor.md
+      - Connector: 02-resources/02-inventory/12_connector.md
+      - Link: 02-resources/02-inventory/13_link.md
+      - Cluster: 02-resources/02-inventory/14_cluster.md
+      - NodeSet: 02-resources/02-inventory/15_nodeset.md
+      - LinkSet: 02-resources/02-inventory/16_linkset.md
+      - EndpointSet: 02-resources/02-inventory/17_endpointset.md
     - Identifiers:
       - About: 02-resources/03-identifiers/01_about.md
       - IPAM:
