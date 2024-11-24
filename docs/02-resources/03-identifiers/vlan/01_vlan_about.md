@@ -17,7 +17,7 @@ To enable more granular VLAN management, Kuid supports the subdivision of VLAN I
 In Kuid, VLANs are modeled in accordance with IEEE 802.1Q standards, utilizing a 12-bit VLAN ID and associated name. Additionally, each VLAN is endowed with an operational status (implemented using conditions), ensuring visibility into its current state and functionality. VLANs are logically organized within VLAN Indexes and may optionally be assigned to specific VLAN ranges, further enhancing the flexibility and organization of network configurations.
 
 
-The below diagram show the hierarchy in which VLAN IDs are managed.
+The below diagram show the hierarchy in which VLANs are managed.
 
 ```mermaid
 ---

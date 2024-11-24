@@ -4,7 +4,7 @@ A `VLANIndex` serves as a container for VLANs, defining a specific scope for the
 
 ## Example
 
-A VLAN Index is managed through the `VLANIndex` Custom Resource Definition (CRD). Below is an example YAML manifest demonstrating the configuration of a VLAN Index named "index1":
+A VLAN Index is managed through the `VLANIndex` resource. Below is an example YAML manifest demonstrating the configuration of a VLAN Index named "index1":
 
 ```yaml
 apiVersion: vlan.be.kuid.dev/v1alpha1
@@ -19,7 +19,7 @@ spec:
 
 ## Status
 
-he status of the `VLANIndex` is indicated using the READY condition. A True Ready condition indicates the VLANIndex was successful. When the Ready condition status is False, the reason and message information in the status provide additional details.
+The status of the `VLANIndex` is indicated using the READY condition. A True Ready condition indicates the `VLANIndex` was successful. When the Ready condition status is False, the reason and message information in the status provide additional details.
 
 ```
 kubectl get vlanindices.vlan.be.kuid.dev 
@@ -32,8 +32,6 @@ NAME     READY
 index1   True
 ```
 
-Upon successful creation of the VLAN Index "index1," the status should indicate a True Ready condition, confirming that the VLAN Index has been successfully provisioned.
-
 ## Expected behavior
 
-Upon successful creation of the `VLANIndex` "index1," the status should indicate a True Ready condition, confirming that the VLAN Index has been successfully provisioned.
+Upon successful creation of the `VLANIndex` "index1", the status should indicate a True Ready condition, confirming that the `VLANIndex` has been successfully provisioned.
