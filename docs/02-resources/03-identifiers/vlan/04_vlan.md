@@ -4,11 +4,11 @@ In Kuid, VLANs are managed according to IEEE 802.1Q standards, ensuring adherenc
 
 ## Static VLAN
 
-Static VLANs are explicitly defined with a specific VLAN ID and are managed through the VLANClaim Custom Resource (CR). Each static VLAN is associated with a VLAN index and a unique VLAN ID. If a static VLAN is defined within a VLAN Range it is associated to the VLAN Range within the VLAN Indez. Below is an example of static VLAN configurations:
+Static VLANs are explicitly defined with a specific VLAN ID and are managed through the VLANClaim resource. Each static VLAN is associated with a VLAN index and a unique VLAN ID. If a static VLAN is defined within a VLAN Range it is associated to the VLAN Range within the VLAN Indez. Below is an example of static VLAN configurations:
 
 ### Example static VLAN
 
-A static VLAN is configured by specifying the VLAN index and the static VLAN ID in the `VLANClaim` CR:
+A static VLAN is configured by specifying the VLAN index and the static VLAN ID in the `VLANClaim` resource:
 
 ```yaml
 apiVersion: vlan.be.kuid.dev/v1alpha1
@@ -26,7 +26,7 @@ Upon successful creation of the static `VLANClaim` "index1.claim1", the status s
 
 ## Dynamic VLAN
 
-Dynamic VLANs are automatically assigned VLAN IDs by the system and are managed through the `VLANClaim` CR without specifying a VLAN ID. Optionally, dynamic VLANs can be restricted to specific VLAN ranges using label selectors. Below are examples of dynamic VLAN configurations:
+Dynamic VLANs are automatically assigned VLAN IDs by the system and are managed through the `VLANClaim` resource without specifying a VLAN ID. Optionally, dynamic VLANs can be restricted to specific VLAN ranges using label selectors. Below are examples of dynamic VLAN configurations:
 
 ### Example dynamic VLAN
 
@@ -56,6 +56,7 @@ spec:
     matchLabels:
       be.kuid.dev/claim-name: index1.range1
 ```
+
 ### Expected behavior
 
 Upon successful creation of the dynamic `VLANClaim`, the status should indicate a True Ready condition, confirming that the VLAN has been successfully claimed with an automatically assigned VLAN ID.

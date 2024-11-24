@@ -26,6 +26,11 @@ nav:
       - About: 02-resources/03-identifiers/01_about.md
       - IPAM:
         - About: 02-resources/03-identifiers/ipam/01_ipam_about.md
+        - IP Index: 02-resources/03-identifiers/ipam/02_ipam_ipindex.md
+        - IP Prefix: 02-resources/03-identifiers/ipam/03_ipam_ipprefix.md
+        - IP Range: 02-resources/03-identifiers/ipam/04_ipam_iprange.md
+        - IP Address: 02-resources/03-identifiers/ipam/05_ipam_ipaddress.md
+        - IP Entry: 02-resources/03-identifiers/ipam/06_ipam_ipentry.md
       - ASN: 
         - About: 02-resources/03-identifiers/asn/01_asn_about.md
         - ASIndex: 02-resources/03-identifiers/asn/02_asn_index.md
