@@ -2,8 +2,17 @@
 
 In Kuid’s IPAM system, IP addresses are managed within a hierarchical structure of IP Prefixes within an IPIndex. The system supports two prefixTypes:
 
-- Network Prefixes: Used for devices with physical or virtual NICs. These prefixes pre-allocate network and broadcast addresses within the IPAM backend (except for IPv4 /31 and IPv6 /127 prefixes).
-- Regular Prefixes: Used for IP prefix hierarchies, IP pools, etc. Regular prefixes do not allocate network or broadcast addresses in the backend, providing more flexibility for custom address management.
+Network Prefixes: 
+
+  - Used for device interfaces with physical or virtual NICs. 
+  - Network and broadcast addresses are pre-allocated in the IPAM backend (except for IPv4 /31 and IPv6 /127 prefixes).
+  - Cannot be nested
+
+Regular Prefixes: 
+
+  - Used for IP prefix hierarchies, IP pools, etc. 
+  - Network and broadcast addresses are NOT pre-allocated in the IPAM backend.
+  - Can be nested
 
 ## Static IP Prefix
 
