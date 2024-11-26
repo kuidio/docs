@@ -1,4 +1,4 @@
-# IPIndex
+# IP Index
 
 An `IPIndex` in Kuid acts as a container for both IPv4 and IPv6 addresses, providing flexible management through associations with specific environments, VRFs, or other entities. This structure enables fine-grained control and segmentation of IP resources across different contexts, allowing for efficient organization and management.
 
