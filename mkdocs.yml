@@ -1,7 +1,8 @@
 site_name: kuid
 nav:
   - Home: index.md
-#  - Getting Started: 01-getting-started/01_install.md
+  - Getting Started: 
+    - Installation: 01-getting-started/01_install.md
   - Resources:
     - About: 02-resources/01_about.md
     - Inventory:
