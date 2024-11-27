@@ -143,6 +143,10 @@ extra:
 extra_css:
   - stylesheets/extra.css
 
+# hooks
+hooks:
+  - hooks/copy.py
+
 # Extensions
 markdown_extensions:
   - markdown.extensions.admonition
