@@ -14,4 +14,4 @@ def on_post_build(config, **kwargs):
     os.makedirs(install_dir)
         
     # copy the kform generated artifacts.yaml
-    shutil.copy('kuidr-repo/artifacts/out/artifacts.yaml', os.path.join(install_dir, 'install.yaml'))
+    shutil.copy('kuid-repo/artifacts/out/artifacts.yaml', os.path.join(install_dir, 'install.yaml'))
