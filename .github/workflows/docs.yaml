@@ -17,7 +17,29 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      
+      - shell: bash
+        run: |
+          cat versions.env >> $GITHUB_ENV
+      - uses: actions/checkout@v4
+        with:
+          repository: 'kuidio/kuid'
+          # TODO: add the ref back again was just temp fix
+          ref: '${{ env.KUID_SERVER_VERSION }}'
+          path: 'kuid-repo'
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: 'kuid-repo/go.mod'
+          cache-dependency-path: |
+            kuid-repo/go.sum
+      - shell: bash
+        run: |
+          cat versions.env >> $GITHUB_ENV
+          cat configmap-input-vars.yaml.tmpl | envsubst > kuid-repo/artifacts/in/configmap-input-vars.yaml
+          cd kuid-repo
+          make artifacts
+          cd ..
+          # remove the HEADER from artifacts
+          find ./ -name *yaml -exec grep -l "####### HEADER END #######" {} ';' | xargs -I{} gawk -i inplace '/####### HEADER END #######/ {p=1;next}p' {}
       - name: Set up Docker
         uses: docker/setup-buildx-action@v3
 
