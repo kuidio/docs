@@ -8,6 +8,10 @@ Once the cluster is deployed we install the `kuid` server. These manifests deplo
 
 1. the kuid container embeds an apiserver and various controllers
 
+```
+kubectl apply -f https://docs.kuid.dev/kuid-repo/artifacts/out/artifacts.yaml
+```
+
 /// details | Artifact Content
 
 ```yaml
