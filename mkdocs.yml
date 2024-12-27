@@ -52,8 +52,8 @@ nav:
         - VXLAN Entry: 02-resources/03-identifiers/vxlan/05_vxlan_entry.md
   - Release Notes:
     - About: 06-rn/rn.md
-    - "0.0.14": 06-rn/0.0.14.md
-    - "0.0.15": 06-rn/0.0.15.md
+    - "0.0.12": 06-rn/0.0.12.md
+    - "0.0.13": 06-rn/0.0.13.md
   - Community: 
     - Community: 07-community/01_about.md
 #    - FAQ: 07-community/02_faq.md
