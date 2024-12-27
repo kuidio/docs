@@ -2,242 +2,247 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.kuidio.dev/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/01-getting-started/01_install/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/01-getting-started/02_prereq/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/01_about/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/01_about/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/02_region/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/03_site/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/04_rack/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/05_nodegroup/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/06_node/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/07_modulebay/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/08_module/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/09_nodeitem/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/10_endpoint/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/11_adaptor/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/12_connector/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/13_link/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/14_cluster/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/15_nodeset/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/16_linkset/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/02-inventory/17_endpointset/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/01_about/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/asn/01_asn_about/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/asn/02_asn_index/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/asn/03_asn_range/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/asn/04_asn/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/asn/05_asn_entry/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/extended%20community/about/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/ipam/01_ipam_about/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/ipam/02_ipam_ipindex/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/ipam/03_ipam_ipprefix/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/ipam/04_ipam_iprange/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/ipam/05_ipam_ipaddress/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/ipam/06_ipam_ipentry/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/vlan/01_vlan_about/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/vlan/02_vlan_index/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/vlan/03_vlan_range/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/vlan/04_vlan/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/vlan/05_vlan_entry/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/vxlan/01_vxlan_about/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/vxlan/02_vxlan_index/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/vxlan/03_vxlan_range/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/vxlan/04_vxlan/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/02-resources/03-identifiers/vxlan/05_vxlan_entry/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.kuidio.dev/06-rn/0.0.1/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <loc>https://docs.kuidio.dev/06-rn/0.0.12/</loc>
+         <lastmod>2024-12-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.kuidio.dev/06-rn/0.0.13/</loc>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/06-rn/rn/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/07-community/01_about/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kuidio.dev/07-community/02_faq/</loc>
-         <lastmod>2024-11-27</lastmod>
+         <lastmod>2024-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
