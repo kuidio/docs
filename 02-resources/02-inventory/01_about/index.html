@@ -17,15 +17,20 @@
         Module;
         Port;
         Connector;
-        Adaptor;
+        AdaptorA;
+        AdaptorB;
         Node --&gt; |1:N| NodeItem;
         Node --&gt; |1:N| ModuleBay;
         ModuleBay --&gt; |1:N| Module;
         Module --&gt; |1:N| Port;
         Node --&gt; |1:N| Port;
-        Port --&gt; |1:1| Adaptor;
-        Adaptor --&gt; |1:N| Endpoint;
         Port --&gt; |1:1| Endpoint;
+        Port --&gt; |1:1| AdaptorA;
+        AdaptorA --&gt; |1:N| Endpoint;
+        Port --&gt; |1:1| Adaptor;
+        AdaptorA --&gt; |1:N| Connector;
+        Connector --&gt; |1:N| AdaptorB;
+        AdaptorB --&gt; |1:N| Endpoint;
     end</code></pre> <div class="admonition note"> <p class=admonition-title>We've opted for the name <code>node</code> instead of <code>device</code> as it better encompasses the scope we aim to cover. While 'device' often implies a physical entity, we intend to model both physical and virtual, including containerized entities within our system</p> </div> <div class="admonition note"> <p class=admonition-title>A <code>node</code> equipped with a set of <code>endpoints</code> resources might suffice as resources to model a fixed format entity. Conversely, modular systems often require the use of additional resources such as <code>NodeItems</code> and <code>ModuleBays</code>/<code>Module(s)</code> to accommodate their flexible configurations.</p> </div> <h2 id=connectivity-model>Connectivity model<a class=headerlink href=#connectivity-model title="Permanent link">#</a></h2> <p>The connectivity model in <code>Kuid</code> illustrates the communication pathways between <code>Nodes</code> within the infrastructure. Each <code>Node</code>, represented by <code>NodeA</code> and <code>NodeB</code>, is equipped with one or more communication interfaces, known as <code>Connectors</code>. These <code>Connectors</code> serve as connection points for external communication with other Nodes or network devices.</p> <p>In the diagram, <code>EndpointA1</code> and <code>EndpointB1</code> represent the communication interfaces of <code>NodeA</code> and <code>NodeB</code>, respectively. These Connectors are connected to each other via <code>Links</code>, which represent the physical or logical connections between Nodes. The <code>Link</code> acts as a conduit for data transmission between the Connectors, facilitating the exchange of information and messages between Nodes.</p> <p>Overall, the connectivity model in Kuid provides a structured framework for establishing and managing communication between Nodes, facilitating efficient data exchange and collaboration within the infrastructure environment.</p> <pre class=mermaid><code>graph TD;
     subgraph "Kuid Connectivity Model"
         NodeA
