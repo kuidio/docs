@@ -44,15 +44,20 @@ graph TD;
         Module;
         Port;
         Connector;
-        Adaptor;
+        AdaptorA;
+        AdaptorB;
         Node --> |1:N| NodeItem;
         Node --> |1:N| ModuleBay;
         ModuleBay --> |1:N| Module;
         Module --> |1:N| Port;
         Node --> |1:N| Port;
-        Port --> |1:1| Adaptor;
-        Adaptor --> |1:N| Endpoint;
         Port --> |1:1| Endpoint;
+        Port --> |1:1| AdaptorA;
+        AdaptorA --> |1:N| Endpoint;
+        Port --> |1:1| Adaptor;
+        AdaptorA --> |1:N| Connector;
+        Connector --> |1:N| AdaptorB;
+        AdaptorB --> |1:N| Endpoint;
     end
 ```
 
