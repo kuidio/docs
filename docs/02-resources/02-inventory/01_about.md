@@ -60,11 +60,18 @@ graph TD;
         Connector --> |1:N| AdaptorB;
         AdaptorB --> |1:N| Endpoint;
     end
+
+%% Note: 
+%% - Adaptor: Represents pluggable modules such as SFP, QSFP, SFP+, etc.
+%% - AdaptorA: A pluggable module that interfaces directly with a port.
+%% - AdaptorB: An active element (e.g., satellite or port fanout) used to breakout multiple ports.
 ```
 
 !!!note "We've opted for the name `node` instead of `device` as it better encompasses the scope we aim to cover. While 'device' often implies a physical entity, we intend to model both physical and virtual, including containerized entities within our system"
 
 !!!note "A `node` equipped with a set of `endpoints` resources might suffice as resources to model a fixed format entity. Conversely, modular systems often require the use of additional resources such as `NodeItems` and `ModuleBays`/`Module(s)` to accommodate their flexible configurations."
+
+!!!note "A `adaptor` equipped with a set of `endpoints` resources might suffice as resources to model a fixed format entity. Conversely, modular systems often require the use of additional resources such as `NodeItems` and `ModuleBays`/`Module(s)` to accommodate their flexible configurations."
 
 ## Connectivity model
 
