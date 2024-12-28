@@ -17,6 +17,7 @@
         Module;
         Port;
         Connector;
+        Adaptor;
         AdaptorA;
         AdaptorB;
         Node --&gt; |1:N| NodeItem;
@@ -25,9 +26,9 @@
         Module --&gt; |1:N| Port;
         Node --&gt; |1:N| Port;
         Port --&gt; |1:1| Endpoint;
-        Port --&gt; |1:1| AdaptorA;
-        AdaptorA --&gt; |1:N| Endpoint;
         Port --&gt; |1:1| Adaptor;
+        Adaptor --&gt; |1:N| Endpoint;
+        Port --&gt; |1:1| AdaptorA;
         AdaptorA --&gt; |1:N| Connector;
         Connector --&gt; |1:N| AdaptorB;
         AdaptorB --&gt; |1:N| Endpoint;
